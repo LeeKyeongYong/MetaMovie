@@ -9,7 +9,7 @@ VOD 줄거리에서 상위 메타데이터를 추출하고 메타데이터와 �
 <br>영화 상세정보, 별점 및 댓글기능, 박스오피스, 상영예정작 정보제공
 
 ## 📆 프로젝트 기간
-2022.11.17 ~ 12.13 (5주)
+2022.11 ~ 12 (5주)
 
 ## 🔎 주요기능
 1. 카테고리별 영화 데이터 정보 제공 기능 및 댓글 별점 기능 제공
@@ -23,6 +23,12 @@ VOD 줄거리에서 상위 메타데이터를 추출하고 메타데이터와 �
     <tr>
         <th>구분</th>
         <th>내용</th>
+    </tr>
+        <tr>
+        <td>OS</td>
+        <td>
+            <img src="https://camo.githubusercontent.com/1814dfdb62c9a3366a9946083ac0f3ed32aad98e665b287769332252d945f2f1/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d5562756e747526636f6c6f723d453935343230266c6f676f3d5562756e7475266c6f676f436f6c6f723d464646464646266c6162656c3d"/>
+        </td>
     </tr>
     <tr>
         <td>프로그래밍 언어</td>
@@ -40,6 +46,7 @@ VOD 줄거리에서 상위 메타데이터를 추출하고 메타데이터와 �
             <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
             <img src="https://img.shields.io/badge/BootStrap-7952B3?style=for-the-badge&logo=BootStrap&logoColor=white"/>
             <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+             <img src="https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white">
         </td>
     </tr>
     <tr>
@@ -52,14 +59,19 @@ VOD 줄거리에서 상위 메타데이터를 추출하고 메타데이터와 �
         </td>
     </tr>
     <tr>
-        <td>서버환경</td>
+        <td>WEB</td>
         <td>
-            <img src="https://img.shields.io/badge/Apache Tomcat-D22128?style=for-the-badge&logo=Apache Tomcat&logoColor=white"/>
-            <img src="https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white">
+            <img src="https://camo.githubusercontent.com/a48abfcc6894d90cbe2fa4c9ae464617287749d48b3de47a9d0a5d07551d37a2/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d4e47494e5826636f6c6f723d303039363339266c6f676f3d4e47494e58266c6f676f436f6c6f723d464646464646266c6162656c3d"/>&nbsp;&nbsp;<img src="https://camo.githubusercontent.com/b1d7ff63b607cb23392d6f38048fae337e8a85b3d312299e4442d45050cb0675/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d41706163686526636f6c6f723d443232313238266c6f676f3d417061636865266c6f676f436f6c6f723d464646464646266c6162656c3d"/>
         </td>
     </tr>
     <tr>
-        <td>데이터베이스</td>
+        <td>WAS</td>
+        <td>
+            <img src="https://img.shields.io/badge/Apache Tomcat-D22128?style=for-the-badge&logo=Apache Tomcat&logoColor=white"/>
+        </td>
+    </tr>
+    <tr>
+        <td>DataBase</td>
         <td>
             <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
         </td>
@@ -95,11 +107,11 @@ VOD 줄거리에서 상위 메타데이터를 추출하고 메타데이터와 �
     <td align="center"><strong>백종화</strong></td>
   </tr>
   <tr>
-    <td align="center">python 개발<br/>팀장<br/>개발총괄</td>
-    <td align="center"><b>UI/UX, 디자인</b><br>와이어프레임 제작</td>
-    <td align="center"><b>UI/UX, 퍼블리싱</b><br>리스트 페이지 개발</td>
-    <td align="center"><b>Back-end, Front-end</b><br>개발환경 구축<br>API 연동<br/>회원가입/로그인<br/>인덱스<br/>상세페이지<br/>검색페이지 개발</td>
-    <td align="center"><b>업무보조</b><br>문서작성</td>
+    <td align="center"><b>개발총괄</b><br>Python 개발<br>문서작성&발표</td>
+    <td align="center"><b>UI/UX, 디자인 & 기획</b><br>상세페이지 퍼블리싱<br>화면설계 & 기획</td>
+    <td align="center"><b>UI/UX, 퍼블리싱</b><br>페이지 구현<br>문서작성 & 기획</td>
+    <td align="center"><b>Spring 개발</b><br/>BackEnd 구현<br/> API 개발<br/> DB,서버 관리 </td>
+    <td align="center"><b>DBA & Q A</b><br>SystemQA<br>데이터 관리 및 전처리<br/> 자료조사 </td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/apron123" target='_blank'>github</a></td>
@@ -136,3 +148,8 @@ https://www.toptal.com/developers/gitignore
 
 Eclipse/Python
 ```
+
+
+웹 품질 검사
+이 사이트는 웹 표준을 및 웹 품질을 준수하였습니다.
+html5-blue vcss
