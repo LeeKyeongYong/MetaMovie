@@ -96,35 +96,6 @@ VOD 줄거리에서 상위 메타데이터를 추출하고 메타데이터와 �
 ![image](https://user-images.githubusercontent.com/110751978/206978699-451a9b6a-c27c-4f50-8c50-f78194f22130.jpg)
 
 
-
-## 👨‍👩‍👧‍👦 팀원역할
-<table>
- 
-  <tr>
-    <td align="center"><strong>이상민</strong></td>
-    <td align="center"><strong>장소희</strong></td>
-    <td align="center"><strong>윤하은</strong></td>
-    <td align="center"><strong>이경용</strong></td>
-    <td align="center"><strong>백종화</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><b>개발총괄</b><br>Python 개발<br>문서작성&발표</td>
-    <td align="center"><b>UI/UX, 디자인 & 기획</b><br>상세페이지 퍼블리싱<br>화면설계 & 기획</td>
-    <td align="center"><b>UI/UX, 퍼블리싱</b><br>페이지 구현<br>문서작성 & 기획</td>
-    <td align="center"><b>Spring 개발</b><br/>BackEnd 구현<br/> API 개발<br/> DB,서버 관리 </td>
-    <td align="center"><b>DBA & Q A</b><br>SystemQA<br>데이터 관리 및 전처리<br/> 자료조사 </td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/apron123" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-  </tr>
- 
-</table>
-
-
 ### crawling
 
 
