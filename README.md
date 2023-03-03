@@ -1,4 +1,4 @@
-# 🎥 NeTupidia (가제 : 같이보죠)
+# 🎥 
 ![image](https://user-images.githubusercontent.com/110751978/206977515-49a9c584-ee74-4804-b61a-bb35d2c22867.png)
 
 
