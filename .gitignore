@@ -185,8 +185,4 @@ fabric.properties
 
 # Azure Toolkit for IntelliJ plugin
 # https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
-<<<<<<< HEAD
 .idea/**/azureSettings.xml
-=======
-.idea/**/azureSettings.xml
->>>>>>> branch 'master' of https://github.com/LeeKyeongYong/studyTeamproject002.git
