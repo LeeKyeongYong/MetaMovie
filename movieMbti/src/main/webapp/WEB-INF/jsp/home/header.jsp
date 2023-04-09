@@ -5,8 +5,8 @@
             <div class="row">
                 <div class="col-lg-2">
                     <div class="header__logo" style="width:250px">
-                        <a href="index.do">
-                            <img src="img/logo.png" alt="">
+                        <a href="/index.do">
+                            <img src="${pageContext.request.contextPath}/img/logo.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -14,7 +14,7 @@
                     <div class="header__nav">
                         <nav class="header__menu mobile-menu">
                             <ul>
-                                <li class="active"><a href="index.do">Home</a></li>
+                                <li class="active"><a href="/index.do">Home</a></li>
                                 <li><a href="categories.do">애니 <span class="arrow_carrot-down"></span></a>
                                     <ul class="dropdown">
                                         <li><a href="categories.do?movie_type=다큐멘터리">16+애니</a></li>
