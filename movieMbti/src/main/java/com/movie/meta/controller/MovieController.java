@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class MovieController {
 
-    @RequestMapping(value = {"/", "/index.do"} , method = {RequestMethod.GET, RequestMethod.POST})
+    @RequestMapping(value = {"/", "/index.do", "/main.do"} , method = {RequestMethod.GET, RequestMethod.POST})
     public String showMain(Model model) {
         return "/home/main";
     }
