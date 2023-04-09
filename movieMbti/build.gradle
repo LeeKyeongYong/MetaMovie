@@ -14,10 +14,17 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	//implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-devtools:3.0.5'
+	//implementation 'org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4.1:1.16'
 	//implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.0'
+	compileOnly 'org.projectlombok:lombok:1.18.26'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+	implementation 'jakarta.servlet:jakarta.servlet-api' //스프링부트 3.0 이상
+	implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api' //스프링부트 3.0 이상
+	implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl' //스프링부트 3.0 이상
+	providedRuntime 'org.apache.tomcat.embed:tomcat-embed-jasper'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
