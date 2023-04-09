@@ -23,7 +23,7 @@
                     </div>
                     <div class="col-lg-3">
                         <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                          Copyright &copy; 주소 : 광주광역시 동구 제봉로 92 (대성학원 1-3층)&nbsp;&nbsp;thrj_vod All rights reserved  
+                          Copyright &copy; 주소 : http://github.com/LeeKyeongYong All rights reserved
                           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 
                       </div>
