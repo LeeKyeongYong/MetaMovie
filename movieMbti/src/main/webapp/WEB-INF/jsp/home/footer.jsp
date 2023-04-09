@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="footer__logo">
-                            <a href="index.do"><img src="resources/img/logo.png" alt=""></a>
+                            <a href="index.do"><img src="img/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-6">

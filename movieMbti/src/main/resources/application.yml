@@ -1,5 +1,5 @@
 #mybatis:
-  type-aliases-package: com.movie.meta.model
+  #type-aliases-package: com.movie.meta.model
 server:
   port: 8080
 spring:

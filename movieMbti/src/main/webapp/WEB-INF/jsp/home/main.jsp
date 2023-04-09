@@ -26,14 +26,14 @@
           rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="resources/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="resources/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="resources/css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="resources/css/plyr.css" type="text/css">
-    <link rel="stylesheet" href="resources/css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="resources/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="resources/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/plyr.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
@@ -140,14 +140,14 @@
 <!-- Search model end -->
 
 <!-- Js Plugins -->
-<script src="resources/js/jquery-3.3.1.min.js"></script>
-<script src="resources/js/bootstrap.min.js"></script>
-<script src="resources/js/player.js"></script>
-<script src="resources/js/jquery.nice-select.min.js"></script>
-<script src="resources/js/mixitup.min.js"></script>
-<script src="resources/js/jquery.slicknav.js"></script>
-<script src="resources/js/owl.carousel.min.js"></script>
-<script src="resources/js/main.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/player.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
 <script type="text/javascript">
     /* 클릭시 flask로 movie_seq 값 전송 */
     function seqClick(seq) {
