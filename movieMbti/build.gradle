@@ -1,7 +1,7 @@
 plugins {
 	id 'java'
 	id 'war'
-	id 'org.springframework.boot' version '3.0.5'
+	id 'org.springframework.boot' version '2.7.10'
 	id 'io.spring.dependency-management' version '1.1.0'
 }
 
@@ -14,20 +14,54 @@ repositories {
 }
 
 dependencies {
-	//implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-devtools'
+	implementation 'org.springframework:spring-web'
+	implementation 'io.zipkin.brave:brave-spring-web-servlet-interceptor:4.13.6'
+
+	implementation 'jakarta.servlet:jakarta.servlet-api:5.0.0'
+
+
 	implementation 'org.springframework.boot:spring-boot-devtools:3.0.5'
-	//implementation 'org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4.1:1.16'
-	//implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.0'
 	compileOnly 'org.projectlombok:lombok:1.18.26'
+
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
-	implementation 'jakarta.servlet:jakarta.servlet-api' //스프링부트 3.0 이상
-	implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api' //스프링부트 3.0 이상
-	implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl' //스프링부트 3.0 이상
 	providedRuntime 'org.apache.tomcat.embed:tomcat-embed-jasper'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
 }
+/*
+//implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-devtools:3.0.5'
+	implementation 'org.springframework:spring-web:5.3.9'
+	//implementation 'javax.servlet:javax.servlet-api:4.0.1'
+	implementation 'io.zipkin.brave:brave-spring-web-servlet-interceptor:4.13.6'
+	implementation 'io.zipkin.brave:brave-spring-web-servlet-interceptor:4.13.6'
+	implementation 'com.github.kristofa:brave-spring-web-servlet-interceptor:3.7.0'
+	implementation 'com.github.kristofa:brave-spring-web-servlet-interceptor:3.7.0'
+	implementation 'com.github.kristofa:brave-spring-web-servlet-interceptor:3.7.0'
+	implementation 'io.zipkin.brave:brave-spring-web-servlet-interceptor:4.13.6'
+	implementation 'io.zipkin.brave:brave-spring-web-servlet-interceptor:4.13.6'
+	//implementation 'org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4.1:1.16'
+	//implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.0'
+	compileOnly 'org.projectlombok:lombok:1.18.26'
+	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+	implementation 'jakarta.servlet:jakarta.servlet-api' //스프링부트 3.0 이상
+
+	implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api' //스프링부트 3.0 이상
+	implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl' //스프링부트 3.0 이상
+
+	implementation 'javax.servlet:javax.servlet-api:3.1.0'
+	implementation 'org.glassfish.web:javax.servlet.jsp:2.3.2'
+
+
+	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+	providedRuntime 'org.apache.tomcat.embed:tomcat-embed-jasper'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test
+
+ */

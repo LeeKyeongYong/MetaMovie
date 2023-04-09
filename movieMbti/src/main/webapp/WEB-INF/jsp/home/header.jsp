@@ -15,10 +15,13 @@
                         <nav class="header__menu mobile-menu">
                             <ul>
                                 <li class="active"><a href="index.do">Home</a></li>
-                                <li><a href="categories.do">이달의추천 <span class="arrow_carrot-down"></span></a>
+                                <li><a href="categories.do">애니 <span class="arrow_carrot-down"></span></a>
                                     <ul class="dropdown">
-                                        <li><a href="categories.do?movie_type=다큐멘터리">상영추천</a></li>
-                                        <li><a href="categories.do?movie_type=드라마">박스오피스</a></li>
+                                        <li><a href="categories.do?movie_type=다큐멘터리">16+애니</a></li>
+                                        <li><a href="categories.do?movie_type=드라마">BD.Ver</a></li>
+                                        <li><a href="categories.do?movie_type=다큐멘터리">CN Animation</a></li>
+                                        <li><a href="categories.do?movie_type=다큐멘터리">OVA-Special</a></li>
+                                        <li><a href="categories.do?movie_type=다큐멘터리">WebToon</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="categories.do">TV시리즈 <span class="arrow_carrot-down"></span></a>
@@ -47,11 +50,14 @@
                                         <li> <a href="categories.do?movie_type=애니메이션">애니메이션</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="categories.do">커뮤니케이션 <span class="arrow_carrot-down"></span></a>
+                                <li><a href="categories.do"> NeTupidia <span class="arrow_carrot-down"></span></a>
                                     <ul class="dropdown">
                                         <li><a href="categories.do?movie_type=다큐멘터리">공지사항</a></li>
                                         <li><a href="categories.do?movie_type=드라마">Q&A</a></li>
                                         <li><a href="categories.do?movie_type=로맨스">상영 요청</a></li>
+                                        <li><a href="categories.do?movie_type=다큐멘터리">상영추천</a></li>
+                                        <li><a href="categories.do?movie_type=드라마">박스오피스</a></li>
+                                        <li><a href="categories.do?movie_type=드라마">애니Trailer</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -62,9 +68,9 @@
                     <div class="header__right">
                     	<a href="#" class="search-switch"><span class="icon_search"></span></a>
                         	<c:choose>
-								<c:when test = "${sessionScope.mb_id != null}">	
+								<c:when test = "${sessionScope.mb_id != null}">
                                     <a href="myinfoMember.do"><span class="icon_profile"></span></a>
-                                    <a href="logout.do"><span class="icon_close"></span></a>	
+                                    <a href="logout.do"><span class="icon_close"></span></a>
                                 </c:when>
                                 <c:otherwise>
                                      <a href="login.do"><span class="icon_profile"></span></a>

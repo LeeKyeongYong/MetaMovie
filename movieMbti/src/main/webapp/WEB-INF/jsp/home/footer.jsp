@@ -6,18 +6,13 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3">
-                        <div class="footer__logo">
-                            <a href="index.do"><img src="img/logo.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-9">
                         <div class="footer__nav">
                             <ul>
-                                <li class="active"><a href="index.do">메인</a></li>
-                                <li><a href="categories.do">영화</a></li>
-                                <li><a href="NeTupidiaRanking.do">박스오피스</a></li>
-                                <li><a href="NeTupidiaUpcoming.do">상영예정작</a></li>
+                                <li class="active"><a href="index.do">개인정보처리방침</a></li>
+                                <li><a href="categories.do">전자우편무단수집거부</a></li>
+                                <li><a href="NeTupidiaRanking.do">개인정보 제공 절차</a></li>
+                                <li><a href="NeTupidiaUpcoming.do">운영관리 방침</a></li>
                             </ul>
                         </div>
                     </div>
