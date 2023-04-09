@@ -8,6 +8,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <script>
   setTimeout(function(){
-    window.location.replace("/main.do");
+    window.location.replace("movie/main.do");
   },1000);
 </script>
